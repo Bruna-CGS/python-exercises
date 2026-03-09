@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+
+setor = input("""Digite o setor com o qual você deseja falar:
+
+[1] Setor de compras
+[2] Setor de vendas
+[3] Setor de entregas
+[4] Atendimento ao cliente
+""")
+
+while setor not in ('1', '2', '3', '4'):
+    setor = input("""Número inválido! Tente novamente:
+
+[1] Setor de compras
+[2] Setor de vendas
+[3] Setor de financeiro
+[4] Atendimento ao cliente
+""")
+
+if setor == '1':
+    print("Aguarde, vou te direcionar para o setor de compras...")
+elif setor == '2':
+    print("Aguarde, vou te direcionar para o setor de vendas...")
+elif setor == '3':
+    print("Aguarde, vou te direcionar para o setor financeiro...")
+else:
+    print("Aguarde, vou te direcionar para o atendimento.")
+
+
+
+
+                   
